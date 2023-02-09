@@ -412,7 +412,6 @@
             <div class="footer-subscribe">
                 <p class="footer-subscribe-caption">Subscribe</p>
                 <form class="footer-form" name="form">
-                    <label class="footer-form-field">
                         <input
                         class="footer-form-input"
                         type="text"
@@ -420,14 +419,14 @@
                         minlength="10"
                         required
                         placeholder="Email">
-                    </label>  
+                    <button class="footer-button" type="button" data-modal-open>                           
+                    Subscribe                     
+                    <svg class="footer-icon-send" width="24" height="24">
+                        <use href="./images/icons/icons.svg#icon-send"></use>
+                    </svg>
+                    </button>         
                 </form>    
-                <button class="footer-button" type="button" data-modal-open>                           
-                Subscribe                     
-                <svg class="footer-icon-send" width="24" height="24">
-                    <use href="./images/icons/icons.svg#icon-send"></use>
-                </svg>
-                </button> 
+
             </div>
         </div>
     </footer>
@@ -439,10 +438,10 @@
                     <use href="./images/icons/icons.svg#icon-close"></use>
                 </svg>
                 </button>
-            <form class="modal-form">
-              <p class="modal-form-caption">Leave your contacts and we will call you back</p>    
+             <p class="modal-form-caption">Leave your contacts and we will call you back</p> 
 
-                <div class="modal-form-field modal-form-title">
+            <form class="modal-form">
+                <div class="modal-form-field">
                     <label class="modal-form-label" for="name">Name</label>
                         <input class="modal-form-input" type="text" name="name" id="name">
                         <svg class="input-icon" width="18" height="18">
@@ -452,7 +451,7 @@
                         </svg>
                 </div>
 
-                <div class="modal-form-field modal-form-title">
+                <div class="modal-form-field">
                     <label class="modal-form-label" for="tel">Phone</label>
                         <input class="modal-form-input" type="tel" name="tel" id="tel">
                         <svg class="input-icon" width="18" height="24">
@@ -462,7 +461,7 @@
                         </svg>
                 </div>
 
-                <div class="modal-form-field modal-form-title">
+                <div class="modal-form-field">
                     <label class="modal-form-label" for="email">Email</label>
                         <input class="modal-form-input" type="email" name="email" 
                         id="email">
@@ -473,7 +472,7 @@
                         </svg>
                 </div>
 
-                <div class="modal-form-field modal-form-title">
+                <div class="modal-form-field-comment">
                     <label class="modal-comment-label" for="comment">Comment</label>
                     <textarea class="comment" name="comment" id="comment" rows="5" placeholder="Text input"></textarea>
                 </div>
