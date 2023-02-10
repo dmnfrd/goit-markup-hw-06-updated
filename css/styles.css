@@ -72,7 +72,6 @@ img {
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     color:var(--primary-brand);
     background-color: white;
     padding: 0;
@@ -106,7 +105,6 @@ body {
 
 .logo {
     font-family: 'Raleway';
-    font-style: inherit;
     font-weight: var(--800);
     font-size: var(--18px);
     line-height: var(--one-three);
@@ -129,7 +127,6 @@ body {
 
 .logo-dark {
     font-family: 'Raleway';
-    font-style: inherit;
     font-weight: var(--800);
     font-size: var(--18px);
     line-height:var(--one-three);
@@ -152,9 +149,6 @@ body {
 
 .nav-list {
     display: flex;
-    font-size: 14px;
-    line-height: var(--one-one);
-    font-weight: var(--500);
     margin-left: 76px;
     gap: 40px;
     align-items: center;
@@ -165,12 +159,10 @@ body {
 }
 
 .nav-link {
-    font-style: inherit;
     font-weight: var(--500);
-    font-size: var(--16px);
     line-height: var(--one-five);
     letter-spacing: var(--two);
-    color: var(--dark);
+    color:var(--dark);
     text-decoration: none;
     text-align: center;
     transition-property: color;
@@ -200,19 +192,20 @@ body {
     align-items: center;
 }
 
+.contacts {
+    margin-left: auto;
+}
+
 .contact-list {
     display: flex;
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
-    margin-left: auto;
     align-items: center;
 }
 
 .contact-link {
-    font-style: inherit;
-    font-weight: var(--400);
-    font-size: var(--16px);
+    font-style: normal;
     line-height: var(--one-five);
     letter-spacing: var(--two);
     color:var(--text);
@@ -244,8 +237,6 @@ body {
 
 
 .hero-caption {
-    font-family: inherit;
-    font-style: inherit;
     font-weight: var(--700);
     font-size: 56px;
     line-height: 1.07; 
@@ -300,7 +291,6 @@ body {
 }
 
 .features-name {
-    font-style: inherit;
     font-weight: var(--500);
     font-size: var(--20px);
     line-height: var(--one-two);
@@ -312,7 +302,6 @@ body {
 
 
 .features-description {
-    font-size: var(--16px);
     line-height: var(--one-five);
     letter-spacing: var(--two);
     color: var(--text);
@@ -344,7 +333,6 @@ body {
 
 
 .work-caption {
-    font-style: inherit;
     font-weight: var(--700);
     font-size: var(--36px);
     line-height: var(--one-one);
@@ -367,7 +355,6 @@ body {
 }
 
 .team-caption {
-    font-style: inherit;
     font-weight: var(--700);
     font-size: var(--36px);
     line-height: var(--one-one);
@@ -399,7 +386,6 @@ body {
 }
 
 .team-member {
-    font-style: inherit;
     font-weight: var(--500);
     font-size: var(--20px);
     line-height:var(--one-two);
@@ -410,7 +396,6 @@ body {
 }
 
 .team-occupation {
-    font-size: var(--16px);
     line-height: var(--one-five);
     text-align: center;
     letter-spacing: var(--two);
@@ -507,7 +492,6 @@ body {
 
 .footer-logo {
     font-family: 'Raleway';
-    font-style: inherit;
     font-weight: var(--800);
     font-size: var(--18px);
     line-height: var(--one-three);
@@ -522,7 +506,6 @@ body {
 
 .footer-logo-white {
     font-family: 'Raleway';
-    font-style: inherit;
     font-weight: var(--800);
     font-size: var(--18px);
     line-height: var(--one-three);
@@ -543,7 +526,6 @@ body {
 }
 
 .footer-text {
-    font-size: var(--16px);
     line-height: var(--one-five);
     letter-spacing: var(--two);
     color: var(--accent);
@@ -555,7 +537,6 @@ body {
 
 .footer-caption {
     font-weight: var(--500);
-    font-size: var(--16px);
     line-height: var(--one-five);
     letter-spacing:var(--two);
     color: var(--white); 
@@ -568,7 +549,6 @@ body {
 
 .footer-subscribe-caption {
     font-weight: var(--500);
-    font-size: var(--16px);
     line-height: var(--one-five);
     letter-spacing: var(--two);
     color: var(--white);   
@@ -588,7 +568,6 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--white); 
-   
 }
 
 .footer-form-input {
@@ -606,7 +585,7 @@ body {
     padding-left: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
-
+    color:var(--white)
 }
 
 .footer-form-input::placeholder {
@@ -642,6 +621,7 @@ body {
     transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
     border: 0;
     margin-left: 24px;
+    cursor: pointer;
 }
 
 .footer-button:hover,
@@ -812,7 +792,6 @@ body {
 }
 
 .project-title {
-    font-style: inherit;
     font-weight: var(--500);
     font-size: var(--20px);
     line-height: var(--one-one);
@@ -822,7 +801,6 @@ body {
 }
 
 .project-description {
-    font-size: var(--16px);
     line-height: var(--one-five);
     letter-spacing: var(--two);
     color: var(--text);
@@ -906,7 +884,6 @@ body {
   
 .modal-form-caption {
     font-weight: var(--500);
-    font-size: var(--16px);
     line-height: var(--one-five);
     text-align: center;
     letter-spacing: var(--two);

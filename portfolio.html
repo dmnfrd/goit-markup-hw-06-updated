@@ -44,6 +44,7 @@
                 </li>
             </ul>
             </nav> 
+            <address>
             <ul class="contact-list">
                 <li class="contact-item">
                 <a href="mailto:info@devstudio.com" 
@@ -56,6 +57,7 @@
                 +11 (000) 111-11-11</a>
                 </li>
             </ul>
+            </address>
         </div>    
     </header>
 
@@ -300,7 +302,6 @@
             <div class="footer-subscribe">
                 <p class="footer-subscribe-caption">Subscribe</p>
                 <form class="footer-form" name="form">
-                    <label class="footer-form-field">
                         <input
                         class="footer-form-input"
                         type="text"
@@ -308,14 +309,14 @@
                         minlength="10"
                         required
                         placeholder="Email">
-                    </label>  
+                    <button class="footer-button" type="button" data-modal-open>                           
+                    Subscribe                     
+                    <svg class="footer-icon-send" width="24" height="24">
+                        <use href="./images/icons/icons.svg#icon-send"></use>
+                    </svg>
+                    </button>         
                 </form>    
-                <button class="footer-button" type="button" data-modal-open>                           
-                Subscribe                     
-                <svg class="footer-icon-send" width="24" height="24">
-                    <use href="./images/icons/icons.svg#icon-send"></use>
-                </svg>
-                </button> 
+            </div>
             </div>
         </div>
     </footer>
