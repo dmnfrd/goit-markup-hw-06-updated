@@ -994,11 +994,7 @@ textarea:focus {
     background-origin: border-box;
 }
 
-.policy-checkbox:checked + .policy-icon .policy-icon-check {
-    opacity: 1;
-    
-}
-  
+
 .policy-checkbox:checked + .policy-icon .policy-icon-box {
     opacity: 0;
 }
@@ -1007,6 +1003,13 @@ textarea:focus {
     fill: white;
     height: 16px;
     width: 16px;
+    border-radius: 2px;
+    border: 1.25px solid #2E2F42;
+}
+
+.policy-icon:checked {
+    border: opacity;
+    outline: none;
 }
 
 .policy-text {
