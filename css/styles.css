@@ -984,7 +984,10 @@ textarea:focus {
     margin-bottom: 24px;
 }
   
-5eyg65
+.policy-checkbox {
+    appearance: none;
+    position: absolute;
+}
   
 .policy-icon-check {
     cursor: pointer;
